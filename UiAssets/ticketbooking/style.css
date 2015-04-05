@@ -1,0 +1,341 @@
+@charset "utf-8";
+/* CSS Document */
+html, body { margin: 0; padding: 0; }
+.center{
+	margin:0 auto;
+}
+.remove{
+	cursor:pointer;
+	text-align:center
+}
+.main-container{
+	width:960px;
+	margin:0 auto;
+}
+.bus-container-col-4{
+	width:200px;
+	float:left;
+	height:auto;
+	overflow:auto;
+}
+
+.margin-left{
+	margin-left:10px
+}
+
+.wheel{
+	width:94%;
+	margin:0 auto;
+	display:block;
+	height:auto;
+	overflow:auto;
+	margin-top:8px;
+	/*background-color:#096*/
+}
+
+.radius{
+	border-radius:8px
+}
+
+
+.shadow {
+   -moz-box-shadow:    inset 0 0 10px #e43633;
+   -webkit-box-shadow: inset 0 0 10px #e43633;
+   box-shadow:         inset 0 0 10px #e43633;
+}
+
+.wheel img{
+	float:right;
+	width:28px;
+	height:28px;
+}
+
+.seat-container{
+	width:94%;
+	margin:0 auto;
+	display:block;
+	margin-top:4px;
+	margin-left:1%;
+}
+
+.padding-bottom{
+	padding-bottom:8px
+}
+
+.space{
+	margin-left:16% !important;
+}
+
+.seats{
+	width:18%;
+	height:24px;
+	background-color:#4db849;
+	color:white;
+	display:inline;
+	float:left;
+	position:relative;
+	text-align:center;
+	margin-left:4%;
+	margin-top:4%;
+	display:inline;
+	border-radius:4px;
+	cursor:pointer
+}
+
+.selected_seat{
+	background-color:#CCC;
+	color:black;
+}
+
+span.seats {
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+.margin-top{
+	margin-top:10px;
+	height:60px
+}
+
+textarea.form-control{
+	margin-top:10px;
+	height:180px;
+}
+
+#gender:focus{
+	background-color:green;
+}
+
+input:-moz-placeholder{color:#999}
+input:-ms-input-placeholder{color:#999}
+
+.success-message{
+	background-color:#3C6;
+	border-radius:6px;
+	padding-top:4px; padding-bottom:4px;
+	display:none;
+}
+
+.radio-de{
+	float:left;
+	margin-top:10px;
+}
+
+.delete{
+	color:#C00;
+	cursor:pointer
+}
+
+.button-container{
+	width:50%;
+	padding-right:15px;padding-left:15px
+}
+
+.input-button{
+	margin-top:10px;
+	float:right
+}
+
+.table-container{
+	width:100%;
+}
+
+@media screen and (max-width:400px){
+	.main-container{
+		width:100%;
+	}
+	.bus-container-col-4{
+		width:60%;
+		margin:0 auto !important;
+		float:none !important;
+	}
+	
+	.margin-left{
+		margin: 20px auto !important;
+	}
+
+	textarea.form-control{
+		margin-top:10px;
+		height:160px;
+	}	
+}
+
+@media screen and (max-width:350px){
+	.main-container{
+		width:100%;
+	}
+
+	.margin-left{
+		margin-left:0 !important;
+		margin-top:10px
+	}
+	
+	.bus-container-col-4{
+		width:70%;
+		margin:0 auto !important;
+		float:none !important;
+	}
+
+	textarea.form-control{
+		margin-top:10px;
+		height:160px;
+	}	
+}
+
+
+@media screen and (max-width:300px){
+	.main-container{
+		width:100%;
+	}
+	.bus-container-col-4{
+		width:100%;
+		margin:0 auto !important;
+		float:none !important;
+	}
+
+	textarea.form-control{
+		margin-top:10px;
+		height:160px;
+	}	
+}
+
+
+
+
+@media screen and (max-width:959px){
+	.container{
+		width:94%;
+		margin:0 auto;
+	}
+
+	textarea.form-control{
+		margin-top:10px;
+		height:160px;
+	}	
+}
+
+@media screen and (max-width:800px){
+	.margin-top{
+		margin-top:10px
+	}
+	.button-container{
+		width:100%;
+	}
+
+	.table-container{
+		width:100%;
+		overflow:scroll
+	}
+	
+}
+
+@media screen and (max-width:884px){
+	.button-container{
+		width:100%;
+		padding-right:15px;padding-left:15px
+	}
+	
+	.input-button{
+		margin-top:10px;
+		float:right;
+		width:50%;
+	}	
+	
+	.radio-de{
+		float:left;
+		margin-top:10px;
+		width:50%;
+	}
+	
+	.table-container{
+		width:100%;
+		overflow:scroll
+	}		
+}
+
+
+@media screen and (max-width:700px){
+	textarea.form-control{
+		margin-top:10px;
+		height:150px;
+	}		
+	
+	.button-container{
+		width:100%;
+	}
+	.table-container{
+		width:100%;
+		overflow:scroll
+	}	
+}
+
+
+
+@media screen and (max-width:500px){
+	.button-container{
+		width:100%;
+		padding-right:15px;padding-left:15px
+	}
+	
+	.input-button{
+		margin-top:10px;
+		float:right;
+		width:100%;
+	}	
+	
+	.radio-de{
+		float:left;
+		margin-top:10px;
+		width:100%;
+	}
+	
+	.table-container{
+		width:100%;
+		overflow:scroll
+	}		
+}
+
+@media screen and (max-width:400px){
+	.table-container{
+		width:100%;
+		overflow:scroll
+	}		
+}
+
+@media screen and (max-width:300px){
+	.table-container{
+		width:100%;
+		overflow:scroll
+	}			
+}
+
+.error{border-color:#C33;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)}
+
+
+/*******************Checkbox and Radio Design*****************************/
+input[type=checkbox]:not(old),
+input[type=radio   ]:not(old){
+  width   : 28px;
+  margin  : 0;
+  padding : 0;
+  opacity : 0;
+}
+
+input[type=checkbox]:not(old) + label,
+input[type=radio   ]:not(old) + label{
+  display      : inline-block;
+  margin-left  : -28px;
+  padding-left : 28px;
+  background   : url(../images/checks.png) no-repeat 0 0;
+  line-height  : 24px;
+}
+
+input[type=checkbox]:not(old):checked + label{
+  background-position : 0 -24px;
+}
+
+input[type=radio]:not(old):checked + label{
+  background-position : 0 -48px;
+}
